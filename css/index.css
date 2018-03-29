@@ -1,0 +1,1012 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+/* sidedar-left star */
+
+.sidebar-left {
+    top: 30%;
+    left: 300px;
+    display: none;
+}
+
+.sidebar-left ul li {
+    width: 35px;
+    height: 43px;
+    text-align: center;
+    background-color: #918989;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font: 400 14px/43px "microsoft yahei";
+    color: #fff;
+}
+
+.sidebar-left ul li:hover {
+    background-color: #B61D1D;
+}
+
+.sidebar-left ul i {
+    display: inline-block;
+    width: 35px;
+    height: 43px;
+    text-align: center;
+    background-color: #5e4a4a;
+    margin-bottom: 1px;
+    cursor: pointer;
+    font: 400 14px/43px "microsoft yahei";
+    color: #fff;
+}
+
+.sidebar-left ul s {
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-color: #5e4a4a #5e4a4a #fff;
+    border-style: solid;
+    margin: -15px auto 0;
+}
+
+/* sidedar-left end */
+
+/* fix-toolbar start */
+
+.fix-toolbar {
+    display: none;
+    width: 0;
+    height: 100%;
+    border-right: 6px solid #7a6e6e;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.fix-toolbar-t {
+    position: absolute;
+    height: 220px;
+    width: 35px;
+    left: -27px;
+    top: 50%;
+    margin-top: -65px;
+}
+
+.fix-toolbar-b {
+    position: absolute;
+    height: 77px;
+    width: 35px;
+    left: -27px;
+    bottom: -5px;
+}
+
+.fix-toolbar-ty {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    border-radius: 3px 0 0 3px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background-color: #7a6e6e;
+}
+
+.fix-toolbar-ty:hover {
+    background-color: #B61D1D;
+}
+
+.fix-toolbar-ty s {
+    position: absolute;
+    width: 34px;
+    height: 35px;
+    background: url("../images/toolbars.png") no-repeat 0 0;
+}
+
+.fix-toolbar-ty i {
+    position: absolute;
+    width: 53px;
+    height: 35px;
+    font: 400 12px/35px "microsoft yahei";
+    color: #fff;
+    text-align: center;
+    background-color: #B61D1D;
+    border-radius: 3px 0 0 3px;
+    margin-left: 0px;
+    z-index: -1;
+}
+
+.fix-toolbar-member s {
+    background-position: -88px -175px;
+}
+
+.fix-toolbar-shoppingTrolley s {
+    background-position: -50px 0;
+}
+
+.fix-toolbar-follow s {
+    background-position: -50px -50px;
+}
+
+.fix-toolbar-footprint s {
+    background-position: -50px -100px;
+}
+
+.fix-toolbar-news s {
+    background-position: -190px -150px;
+}
+
+.fix-toolbar-consultation s {
+    background-position: -50px -150px;
+}
+
+.fix-toolbar-top s {
+    background-position: -50px -250px;
+}
+
+.fix-toolbar-feedback s {
+    background-position: -50px -300px;
+}
+
+/* fix-toolbar end */
+
+/* fix-search start */
+
+.fix-search {
+    width: 100%;
+    height: 48px;
+    border-bottom: 2px solid #B61D1D;
+    display: none;
+    background-color: #fff;
+}
+
+.fix-search-logo {
+    float: left;
+    width: 362px;
+    height: 40px;
+    padding: 4px 0;
+}
+
+.fix-search-logo a {
+    display: block;
+    width: 270px;
+    height: 40px;
+    text-indent: -9999em;
+    background: url("../images/jddog.png") no-repeat 0 0;
+}
+
+.fix-search-input {
+    float: left;
+    width: 538px;
+    height: 36px;
+    padding-top: 7px;
+}
+
+.fix-search-input input {
+    float: left;
+    width: 450px;
+    height: 32px;
+    border: 1px solid #B61D1D;
+    padding-left: 4px;
+    color: #989898;
+    font: 400 14px/32px "Microsoft YaHei";
+    border-right: 0;
+}
+
+.fix-search-input button {
+    float: left;
+    width: 82px;
+    height: 34px;
+    background-color: #B61D1D;
+    color: #fff;
+    font: 400 16px/34px "Microsoft YaHei";
+    cursor: pointer;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 998;
+}
+
+/* fix-search end */
+
+/* fix-banner star */
+
+.fix-banner {
+    width: 100%;
+    position: absolute;
+    z-index: 997;
+}
+
+.fix-banner-img1 {
+    position: absolute;
+    top: 256px;
+    left: 40px;
+}
+
+.fix-banner-img2 {
+    position: absolute;
+    top: 256px;
+    right: 40px;
+}
+
+.fix-banner span {
+    position: absolute;
+    width: 40px;
+    height: 18px;
+    right: 0;
+    bottom: 0;
+}
+
+.fix-banner span:hover {
+    background-color: #797775;
+    opacity: .5;
+}
+
+/* fix-banner end */
+
+/*shortcut-nav start*/
+
+.shortcut-nav {
+    height: 30px;
+    line-height: 30px;
+    background-color: #F1F1F1;
+}
+
+.shortcut-nav-send, .shortcut-nav-right .triangle {
+    padding: 0 25px 0 10px;
+    position: relative;
+}
+
+.shortcut-nav-send:hover {
+    background-color: #fff;
+}
+
+.shortcut-nav-send span, .triangle span {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width: 12px;
+    height: 7px;
+    overflow: hidden;
+}
+
+.shortcut-nav-send em, .triangle em {
+    font-size: 13px;
+    line-height: 14px;
+    position: absolute;
+    top: -6px;
+}
+
+.shortcut-nav-right ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+.shortcut-nav-right .line-y {
+    width: 1px;
+    height: 12px;
+    background-color: #DDD;
+    margin-top: 9px;
+    padding: 0;
+}
+
+.shortcut-nav-right .jd-tel {
+    padding-left: 25px;
+}
+
+.jd-tel s {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 15px;
+    height: 20px;
+    background: url("../images/tel.png") no-repeat 0 0;
+}
+
+/*shortcut-nav end*/
+
+/*top-ad start*/
+
+.top-ad {
+    position: relative;
+    height: 80px;
+    background-color: #142762;
+    opacity: 1;
+}
+
+.top-ad .close-ad {
+    position: absolute;
+    float: right;
+    top: 8px;
+    right: 48px;
+    width: 19px;
+    height: 19px;
+    background: url("../images/close-ad.png") no-repeat 0 0;
+}
+
+.top-ad .close-ad:hover {
+    background: url("../images/close-ad.png") no-repeat 0 -19px;
+}
+
+/*top-ad end*/
+
+/*top-search start*/
+
+.top-search-logo {
+    float: left;
+    width: 362px;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.top-search-logo a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -9999em;
+    background: url("../images/logo.png") no-repeat 0 0;
+}
+
+.top-search-input {
+    float: left;
+    width: 538px;
+    height: 36px;
+    padding-top: 25px;
+}
+
+.top-search-input input {
+    float: left;
+    width: 450px;
+    height: 32px;
+    border: 1px solid #B61D1D;
+    padding-left: 4px;
+    color: #989898;
+    font: 400 14px/32px "Microsoft YaHei";
+    border-right: 0;
+}
+
+.top-search-input button {
+    float: left;
+    width: 82px;
+    height: 34px;
+    background-color: #B61D1D;
+    color: #fff;
+    font: 400 16px/34px "Microsoft YaHei";
+    cursor: pointer;
+}
+
+.top-search-ShoppingCart {
+    position: relative;
+    float: right;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 43px;
+    margin: 25px 65px 0 0;
+    background-color: #F9F9F9;
+    border: 1px solid #DFDFDF;
+}
+
+.ic1 {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    width: 18px;
+    height: 16px;
+    background: url("../images/tel.png") no-repeat 0 -58px;
+}
+
+.ic2 {
+    position: absolute;
+    right: 10px;
+    font: 13px/34px "SimSun";
+    color: #999;
+}
+
+.ic3 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-color: #B61D1D;
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+    top: -2px;
+    border-radius: 7px 7px 7px 0px;
+}
+
+.top-search-more {
+    float: left;
+    width: 528px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.top-search-more a {
+    margin-right: 12px;
+}
+
+/*top-search end*/
+
+/*items-nav start*/
+
+.items-nav {
+    height: 44px;
+    border-bottom: 2px solid #B61D1D;
+}
+
+.items-nav-l {
+    width: 209px;
+    height: 44px;
+    background-color: #B1191A;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.items-nav-l-t a {
+    display: inline-block;
+    width: 209px;
+    height: 44px;
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+    padding: 0 10px;
+}
+
+.items-nav-l-b {
+    height: 465px;
+    background-color: #c81623;
+    border-left: 1px solid #B1191A;
+    border-bottom: 1px solid #B1191A;
+    color: #fff;
+}
+
+.items-nav-l-b div {
+    height: 31px;
+    padding: 0 10px;
+    color: #fff;
+    font: 400 14px/31px "microsoft yahei";
+}
+
+.items-nav-l-b div:hover {
+    background-color: #fff;
+}
+
+.items-nav-l-b div:hover a {
+    color: #c81623;
+}
+
+.items-nav-l-b a {
+    color: #fff;
+}
+
+.items-nav-l-b h3 {
+    float: left;
+}
+
+.items-nav-l-b i {
+    float: right;
+    color: #fff;
+    font: 400 9px/31px "consolas";
+}
+
+.items-nav-m {
+    display: inline-block;
+    width: 728px;
+    height: 44px;
+    float: left;
+}
+
+.items-nav-m a {
+    display: inline-block;
+    height: 44px;
+    font: 400 16px/44px "microsoft yahei";
+    padding: 0 16px;
+    color: #333;
+}
+
+.items-nav-m a:hover {
+    color: #C81623;
+}
+
+.items-nav-r img {
+    width: 200px;
+    height: 44px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 50px;
+}
+
+/*items-nav end*/
+
+/*sidebar start*/
+
+.sidebar {
+    position: relative;
+}
+
+.sidebar a {
+    top: -3px;
+    position: absolute;
+    width: 100%;
+    height: 644px;
+    background: url("../images/sidebar.jpg") no-repeat center;
+}
+
+/*sidebar end*/
+
+/*main start*/
+
+.main {
+    position: relative;
+    width: 1210px;
+    height: 464px;
+    margin: 0 auto;
+}
+
+.carousel-one {
+    position: absolute;
+    float: left;
+    width: 730px;
+    height: 454px;
+    margin: 10px 0 0 220px;
+    background: #333333;
+}
+
+.carousel-list ul {
+    position: absolute;
+    top: 90%;
+    list-style: none;
+    left: 50%;
+    margin-left: -60px;
+    background: rgba(233, 245, 242, 0.25);
+    border-radius: 10px;
+}
+
+.carousel-list li {
+    float: left;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 50%;
+    margin: 2px 8px;
+    background-color: white;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.carousel-list .highlight {
+    opacity: .9;
+}
+
+.carousel-button {
+    display: none;
+}
+
+.carousel-button button {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    background-color: rgba(155, 155, 155, 0.3);
+    top: 50%;
+    margin-top: -30px;
+    font: 400 20px/60px "consolas";
+    color: #F9F9F9;
+    cursor: pointer;
+}
+
+.carousel-button button:hover {
+    background-color: #444;
+    opacity: .3;
+}
+
+.carousel-button-left {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-button-right {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.carousel-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.carousel-img img.active {
+    opacity: 1;
+}
+
+.main-news-t-bulletin {
+    height: 163px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.main-news-t-bulletin-t {
+    height: 32px;
+    border-bottom: 1px dotted #E8E8E7;
+    line-height: 32px;
+    padding: 0 14px;
+}
+
+.main-news-t-bulletin-t h2 {
+    float: left;
+    font: 400 16px/32px "microsoft yahei";
+}
+
+.main-news-t-bulletin-t a {
+    float: right;
+    font-family: "consolas";
+}
+
+.main-news-t-bulletin-b {
+    padding: 5px 0 0 15px;
+}
+
+.main-news-t-bulletin-b li {
+    line-height: 24px;
+}
+
+.main-news-t-bulletin-b span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.main-news-t-column {
+    overflow: hidden;
+}
+
+.main-news-t-column ul {
+    width: 260px;
+}
+
+.main-news-t-column li {
+    width: 62px;
+    height: 69px;
+    border: 1px solid #E8E8E7;
+    margin-top: -1px;
+    margin-left: -1px;
+    float: left;
+    border-top: 0;
+}
+
+.main-news-t-column a {
+    position: relative;
+    display: block;
+    width: 62px;
+    height: 29px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.main-news-t-column i {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/ind.png) no-repeat;
+}
+
+.main-news-t-column .main-news-t-column-0 {
+    background-position: 0 0;
+}
+
+.main-news-t-column .main-news-t-column-1 {
+    background-position: 0 -25px;
+}
+
+.main-news-t-column .main-news-t-column-2 {
+    background-position: 0 -50px;
+}
+
+.main-news-t-column .main-news-t-column-3 {
+    background-position: 0 -75px;
+}
+
+.main-news-t-column .main-news-t-column-4 {
+    background-position: 0 -100px;
+}
+
+.main-news-t-column .main-news-t-column-5 {
+    background-position: 0 -125px;
+}
+
+.main-news-t-column .main-news-t-column-6 {
+    background-position: 0 -150px;
+}
+
+.main-news-t-column .main-news-t-column-7 {
+    background-position: 0 -175px;
+}
+
+.main-news-t-column .main-news-t-column-8 {
+    background-position: 0 -200px;
+}
+
+.main-news-t-column .main-news-t-column-9 {
+    background-position: 0 -225px;
+}
+
+.main-news-t-column .main-news-t-column-10 {
+    background-position: 0 -250px;
+}
+
+.main-news-t-column .main-news-t-column-11 {
+    background-position: 0 -275px;
+}
+
+.main-news {
+    float: right;
+    width: 250px;
+    height: 453px;
+}
+
+.main-news-t {
+    width: 248px;
+    height: 370px;
+    border: 1px solid #E4E4E4;
+    margin: 12px 0;
+}
+
+.main-news-b {
+    margin-top: -7px;
+}
+
+/*main end*/
+
+/*content start*/
+
+.content img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*content end*/
+
+/*recommend start*/
+
+.recommend {
+    position: relative;
+}
+
+.recommend {
+    padding: 10px 0 20px;
+}
+
+.recommend-l {
+    float: left;
+}
+
+.recommend-l a {
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url("../images/p5.jpg") no-repeat;
+}
+
+.recommend-r {
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.recommend-r ul {
+    width: 425%;
+}
+
+.recommend-r li {
+    float: left;
+    margin-right: 1px;
+    background: url("../images/p5.jpg") no-repeat;
+}
+
+/*recommend start*/
+
+/*footer start*/
+
+.footer-top-service {
+    position: relative;
+    height: 94px;
+    background-color: #F5F5F5;
+    margin-bottom: 16px;
+}
+
+.footer-top-service img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+
+.footer-top-service-img1 {
+    margin-left: -600px;
+}
+
+.footer-top-service-img2 {
+    margin-left: -300px;
+}
+
+.footer-top-service-img4 {
+    margin-left: 300px;
+}
+
+.footer-top-help dl {
+    width: 200px;
+    float: left;
+}
+
+.footer-top-help dt {
+    height: 34px;
+    font: 400 16px/34px "microsft yahei";
+}
+
+.footer-top-help dd {
+    line-height: 20px;
+}
+
+.footer-top-help .last-help {
+    width: 100px;
+}
+
+.footer-top-help-cover {
+    width: 205;
+    height: 168px;
+    float: right;
+    padding: 0 9px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+
+.footer-top-help-cover h5 {
+    width: 190px;
+    height: 34px;
+    font: 400 16px/34px "microsft yahei"
+}
+
+.footer-top-help-cover p {
+    width: 190px;
+    height: 55px;
+    line-height: 20px;
+    padding: 9px 0;
+}
+
+.footer-top-help-cover a {
+    float: right;
+    font-family: "SimSun";
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.footer-bottom-links a {
+    margin: 0 10px;
+}
+
+.footer-bottom-copyright {
+    padding: 10px 0;
+}
+
+.footer-bottom-auth a {
+    margin: 0 5px;
+}
+
+/*footer end*/
